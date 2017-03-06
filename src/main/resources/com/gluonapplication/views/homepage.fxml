@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.mvc.View?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<View fx:id="start_page" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="350.0" stylesheets="@../Documents/NetBeansProjects/quizes_Test1/src/main/resources/com/gluonapplication/views/start_page.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gluonapplication.views.Start_PagePresenter">
+   <center>
+      <AnchorPane prefHeight="701.0" prefWidth="388.0" style="-fx-background-image: url('file:C:/Users/ASUS/Desktop/intro10eComprehensive.jpg');" stylesheets="@../Documents/NetBeansProjects/quizes_Test1/src/main/resources/com/gluonapplication/views/start_page.css" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="LogInStart" layoutX="150.0" layoutY="246.0" mnemonicParsing="false" onAction="#LogInClick" text="Log In" />
+            <Button fx:id="CrtAcc" layoutX="126.0" layoutY="312.0" mnemonicParsing="false" onAction="#CreateAccount" text="Create Account" />
+         </children>
+      </AnchorPane>
+   </center>
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</View>

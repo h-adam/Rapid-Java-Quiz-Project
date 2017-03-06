@@ -1,0 +1,10 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.view {
+-fx-background-image: url("http://vignette2.wikia.nocookie.net/r__/images/a/a1/Java_Duke.png/revision/latest?cb=20110911153018&path-prefix=rsps");
+-fx-background-repeat: stretch; 
+-fx-background-size: 400 425;
+-fx-background-position: top center;
+}

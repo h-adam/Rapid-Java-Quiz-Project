@@ -1,0 +1,6 @@
+.view {
+-fx-background-image: url("http://logodatabases.com/wp-content/uploads/2012/03/java-logo-large.png");
+-fx-background-repeat: stretch; 
+-fx-background-size: 400 400;
+-fx-background-position: top center;
+}

@@ -1,0 +1,10 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.view {
+-fx-background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Duke_%28Java_mascot%29_waving.svg/500px-Duke_%28Java_mascot%29_waving.svg.png");
+-fx-background-repeat: stretch; 
+-fx-background-size: 250 450;
+-fx-background-position: top center;
+}
